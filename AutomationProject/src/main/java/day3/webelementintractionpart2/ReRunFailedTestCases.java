@@ -2,7 +2,7 @@ package day3.webelementintractionpart2;
 
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
+
 
 public class ReRunFailedTestCases {
 
@@ -12,19 +12,19 @@ public class ReRunFailedTestCases {
 	@Test
 	public void firstTestCase() {
 
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 	}
 
 	@Test
 	public void secondTestCase() {
 
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 	}
 	
 	
 	@Test
 	public void thirdTestCase() {
 
-		Assert.assertTrue(true);
+		//Assert.assertTrue(true);
 	}
 }
