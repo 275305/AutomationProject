@@ -7,9 +7,9 @@ public class TestMerge {
 		return a + b;
 	}
 
-	public int getSub(int a, int b) {
+	public void getSub(int a, int b) {
 
-		return a - b;
+		System.out.println("substract of "+(a - b));   //Pradeep version
 	}
 
 	public int getMul(int a, int b) {
