@@ -36,11 +36,11 @@ public static void main(String[] args) throws Exception {
 		
 		 
 		//Using the methods created in pages class to perform actions
-		loginPg.LogIn_Action("standard_user", "secret_sauce");
+		loginPg.LogIn_Action("standard_user","secret_sauce");
 		Thread.sleep(3000);
 		
 		 
-		driver.quit();		
+		//driver.quit();		
 						}
 	
 	

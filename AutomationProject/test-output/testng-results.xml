@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-21T02:03:58 GMT-07:00" name="Default suite" finished-at="2024-06-21T02:04:03 GMT-07:00" duration-ms="5058">
+  <suite started-at="2025-05-12T09:11:21 GMT-07:00" name="Default suite" finished-at="2025-05-12T09:11:29 GMT-07:00" duration-ms="7820">
     <groups>
     </groups>
-    <test started-at="2024-06-21T02:03:58 GMT-07:00" name="Default test" finished-at="2024-06-21T02:04:03 GMT-07:00" duration-ms="5058">
-      <class name="data.drive.framwork.ValidateLoginFunctionality">
-        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:data.drive.framwork.ValidateLoginFunctionality@3e08ff24]" started-at="2024-06-21T02:03:58 GMT-07:00" name="initiateDriverInstance" finished-at="2024-06-21T02:04:03 GMT-07:00" duration-ms="4551" status="PASS">
+    <test started-at="2025-05-12T09:11:21 GMT-07:00" name="Default test" finished-at="2025-05-12T09:11:29 GMT-07:00" duration-ms="7820">
+      <class name="FaceBookTest">
+        <test-method signature="getLogin()[pri:0, instance:FaceBookTest@cecf639]" started-at="2025-05-12T09:11:21 GMT-07:00" name="getLogin" finished-at="2025-05-12T09:11:29 GMT-07:00" duration-ms="7753" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initiateDriverInstance -->
-        <test-method signature="loginFunctionality()[pri:0, instance:data.drive.framwork.ValidateLoginFunctionality@3e08ff24]" started-at="2024-06-21T02:04:03 GMT-07:00" name="loginFunctionality" finished-at="2024-06-21T02:04:03 GMT-07:00" duration-ms="438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFunctionality -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:data.drive.framwork.ValidateLoginFunctionality@3e08ff24]" started-at="2024-06-21T02:04:03 GMT-07:00" name="closeDriver" finished-at="2024-06-21T02:04:03 GMT-07:00" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- data.drive.framwork.ValidateLoginFunctionality -->
+        </test-method> <!-- getLogin -->
+      </class> <!-- FaceBookTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

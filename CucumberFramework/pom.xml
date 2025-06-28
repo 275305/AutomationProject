@@ -71,6 +71,34 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>7.2.3</version>
 		</dependency>
+		<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.5.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-path</artifactId>
+      <version>5.5.5</version>
+      <scope>test</scope>
+       </dependency>
+       <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>xml-path</artifactId>
+      <version>5.5.5</version>
+      <scope>test</scope>
+           </dependency>
+           <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-schema-validator</artifactId>
+      <version>5.5.5</version>
+      <scope>test</scope>
+           </dependency>
+           
+           
+
+       
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>

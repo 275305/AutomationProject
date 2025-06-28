@@ -16,14 +16,14 @@ final WebDriver driver;
 		}
 		
 	//Locating user name text box 
-		@FindBy(id="user-name")
+		@FindBy(css="input[id='user-name']")
 		WebElement username;
 	
 	//Locating the password text box
-	@FindBy(id="password")
+	@FindBy(css="#password")
 	WebElement pswd;
 	
-	@FindBy(id="login-button")
+	@FindBy(css="#login-button")
 	WebElement loginBtn;
 	
 	
