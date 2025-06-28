@@ -2,17 +2,20 @@ package a.array.programs;
 
 public class TestMerge {
 
-	public void getSum(int a, int b) {
+	public int getSum(int a, int b) {
 
-		System.out.println("sum of :"+ a + b);  // Raju version
+		System.out.println("sum of :"+ (a + b));  // Raju version
+		return (a+b);
 	}
 
 	public int getSub(int a, int b) {
 
 
+
 		System.out.println("substract of "+(a - b));   //Pradeep version
 
 		return (a - b +10);   // Vishal Version
+
 
 	}
 
