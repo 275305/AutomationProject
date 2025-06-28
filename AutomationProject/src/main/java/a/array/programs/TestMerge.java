@@ -9,7 +9,7 @@ public class TestMerge {
 
 	public int getSub(int a, int b) {
 
-		return a - b;
+		return (a - b +10);   // Vishal Version
 	}
 
 	public int getMul(int a, int b) {
