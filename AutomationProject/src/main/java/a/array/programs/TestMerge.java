@@ -7,9 +7,13 @@ public class TestMerge {
 		System.out.println("sum of :"+ a + b);  // Raju version
 	}
 
-	public void getSub(int a, int b) {
+	public int getSub(int a, int b) {
+
 
 		System.out.println("substract of "+(a - b));   //Pradeep version
+
+		return (a - b +10);   // Vishal Version
+
 	}
 
 	public int getMul(int a, int b) {
