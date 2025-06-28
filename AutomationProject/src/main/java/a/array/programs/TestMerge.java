@@ -2,9 +2,9 @@ package a.array.programs;
 
 public class TestMerge {
 
-	public int getSum(int a, int b) {
+	public void getSum(int a, int b) {
 
-		return a + b;
+		System.out.println("sum of :"+ a + b);
 	}
 
 	public int getSub(int a, int b) {
