@@ -3,9 +3,13 @@ package a.array.programs;
 public class TestGitPullMergeConflict {
 	
 	
-	public int getValue(int a,int b) {
+	public int[] getValue(int a,int b) {
 		
-		return a-b;     //Vishal version
+         int sum=a+b;
+         int diff=a-b;
+         
+         return new int[] {sum,diff};
+         
 	}
 
 	
@@ -13,7 +17,10 @@ public class TestGitPullMergeConflict {
 		
 		TestGitPullMergeConflict test=new TestGitPullMergeConflict();
 		
-		test.getValue(2, 5);
+		int result[]=test.getValue(2, 5);
+		
+		System.out.print("Sum:"+result[0]);
+		System.out.println("diff:"+result[1]);
 		
 		
 	}
