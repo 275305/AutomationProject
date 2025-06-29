@@ -5,6 +5,8 @@ public class TestGitPullMergeConflict {
 	
 	public int getValue(int a,int b) {
 		
+		System.out.println("sum of a and b :"+(a+b));//pradeep version
+		
 		return a+b;
 	}
 
