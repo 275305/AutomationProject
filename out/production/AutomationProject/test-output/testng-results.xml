@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T00:06:06 IST" name="Default suite" finished-at="2025-06-30T00:06:07 IST" duration-ms="1166">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T00:06:06 IST" name="Default test" finished-at="2025-06-30T00:06:07 IST" duration-ms="1166">
+      <class name="excel.utility.TestExcelWriter">
+        <test-method signature="loginTest()[pri:0, instance:excel.utility.TestExcelWriter@57a78e3]" started-at="2025-06-30T00:06:06 IST" name="loginTest" finished-at="2025-06-30T00:06:07 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- excel.utility.TestExcelWriter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
