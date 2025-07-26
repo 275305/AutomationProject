@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Suite">
+  <test thread-count="5" name="My Test">
+    <classes>
+      <class name="duc.april.LoginSauce"/>
+     <!-- <class name="day5.ExtentReportWithTestCase"/>
+      <class name="day3.webelementintractionpart2.WebTableHandle"/>
+      <class name="day5.ExtentReportComplete"/>
+      <class name="day3.webelementintractionpart2.ReRunFailedTestCases"/>
+      <class name="day4.UploadFileBySikuli"/>
+      <class name="day3.webelementintractionpart2.Listener2"/>
+      <class name="com.automation.test.SecondTest"/>
+      <class name="day5.DataDrivenFrameWork"/>
+      <class name="day5.ExtentReportExp"/>
+      <class name="day3.webelementintractionpart2.Listener1"/>
+      <class name="day4.takescreenshot.autoit.TakeScreenShotFailedTestCase"/>
+      <class name="data.drive.framwork.ValidateLoginFunctionality"/>
+      <class name="day3.webelementintractionpart2.TestNgAnnotation"/>
+      <class name="day3.webelementintractionpart2.ScrollingWindow"/>
+      <class name="iFrame.assertions.FrameExample"/>
+      <class name="day4.TakeScreenShotofSpecificElement"/>
+      <class name="day4.TakeScreenShotFailedTestCase"/>
+      <class name="com.all.unit.Shape"/>
+      <class name="com.automation.pages.TitleVerify"/>
+      <class name="day4.TakeFullScreenShot"/>-->
+    </classes>
+  </test> <!-- My Test -->
+</suite> <!-- My Suite -->
