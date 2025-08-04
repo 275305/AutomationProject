@@ -8,7 +8,8 @@ public class RajuClass {
 	@Test
 	public void getRajuDetails() {
 		
-		System.out.println("I am Raju");
+		System.out.println("I am PradeepRaju ");
+		System.out.println("I am pradeep");
 	}
 
 }
