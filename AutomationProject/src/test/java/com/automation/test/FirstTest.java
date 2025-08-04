@@ -1,4 +1,4 @@
-package com.automation.test;
+package java.com.automation.test;
 
 import java.util.concurrent.TimeUnit;
 
