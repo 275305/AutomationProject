@@ -10,6 +10,7 @@ public class TestGitPullMergeConflict {
          
          return new int[] {sum,diff};
          
+
 	}
 
 	
